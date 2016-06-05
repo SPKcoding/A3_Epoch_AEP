@@ -1,0 +1,1 @@
+7 "BIS_fnc_dynamictext" !="00'/> Earplugs on!</t>",-0.65,-1,5,1,-0.25,789] spawn BIS_fnc_dynamicText;systemChat "[INFO] EARPLUGS ON !"}}];if(!alive pla"
