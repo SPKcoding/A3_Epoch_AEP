@@ -44,26 +44,26 @@ class SPKcode_client {
 	};
 };
 ```
-	* If you already have a `class SPKcode_client` just add the `class SPK_AEP` to it. Example like this:
-	```
-	class SPKcode_client {
-		tag = "SPK";
-		
-		class SPK_EXISTING_EXAMPLE {
-			file = "SPKcode\Example";
-			class example {};
-		};
-		
-		class SPK_AEP {
-			file = "SPKcode\AEP";
-			class varsAEP {};
-			class autoEP {};
-			class compileKeyDown {};
-			class initAEP {postInit=1;};
-		};
-		
+* If you already have a `class SPKcode_client` just add the `class SPK_AEP` to it. Example like this:
+```
+class SPKcode_client {
+	tag = "SPK";
+
+	class SPK_EXISTING_EXAMPLE {
+		file = "SPKcode\Example";
+		class example {};
 	};
-	```
+
+	class SPK_AEP {
+		file = "SPKcode\AEP";
+		class varsAEP {};
+		class autoEP {};
+		class compileKeyDown {};
+		class initAEP {postInit=1;};
+	};
+
+};
+```
 * Copy the folder `epoch.Mapname\SPKcode` from this package into the root of your `epoch.Mapname`
 	* If you already have a folder `SPKcode` just copy the `AEP` folder from it into your existing one
 <br/>
